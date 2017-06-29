@@ -1,0 +1,491 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Move>
+    <Entry>33</Entry>
+    <Name>Tackle</Name>
+    <Power>40</Power>
+    <Type>NORMAL</Type>
+    <Movetype>PHYSICAL</Movetype>
+    <PP>35</PP>
+    <Learnset> 
+         <!-- Bulbasaur -->
+         <Learnsest_Entry>
+             <National_Index>1</National_Index>
+             <Generation>1</Generation>
+             <Level>1</Level>
+             <Method>LEVEL_UP</Method>
+         </Learnsest_Entry>
+         <Learnsest_Entry>
+             <National_Index>1</National_Index>
+             <Generation>2</Generation>
+             <Level>1</Level>
+             <Method>LEVEL_UP</Method>
+         </Learnsest_Entry>
+         <Learnsest_Entry>
+             <National_Index>1</National_Index>
+             <Generation>3</Generation>
+             <Level>1</Level>
+             <Method>LEVEL_UP</Method>
+         </Learnsest_Entry>
+         <Learnsest_Entry>
+             <National_Index>1</National_Index>
+             <Generation>4</Generation>
+             <Level>1</Level>
+             <Method>LEVEL_UP</Method>
+         </Learnsest_Entry>
+         <Learnsest_Entry>
+             <National_Index>1</National_Index>
+             <Generation>5</Generation>
+             <Level>1</Level>
+             <Method>LEVEL_UP</Method>
+         </Learnsest_Entry>
+         <Learnsest_Entry>
+             <National_Index>1</National_Index>
+             <Generation>6</Generation>
+             <Level>1</Level>
+             <Method>LEVEL_UP</Method>
+         </Learnsest_Entry>
+         <Learnsest_Entry>
+             <National_Index>1</National_Index>
+             <Generation>7</Generation>
+             <Level>1</Level>
+             <Method>LEVEL_UP</Method>
+         </Learnsest_Entry>
+         
+         <!-- Ivysaur -->
+         <Learnsest_Entry>
+             <National_Index>2</National_Index>
+             <Generation>1</Generation>
+             <Level>1</Level>
+             <Method>LEVEL_UP</Method>
+         </Learnsest_Entry>
+         <Learnsest_Entry>
+             <National_Index>2</National_Index>
+             <Generation>2</Generation>
+             <Level>1</Level>
+             <Method>LEVEL_UP</Method>
+         </Learnsest_Entry>
+         <Learnsest_Entry>
+             <National_Index>2</National_Index>
+             <Generation>3</Generation>
+             <Level>1</Level>
+             <Method>LEVEL_UP</Method>
+         </Learnsest_Entry>
+         <Learnsest_Entry>
+             <National_Index>2</National_Index>
+             <Generation>4</Generation>
+             <Level>1</Level>
+             <Method>LEVEL_UP</Method>
+         </Learnsest_Entry>
+         <Learnsest_Entry>
+             <National_Index>2</National_Index>
+             <Generation>5</Generation>
+             <Level>1</Level>
+             <Method>LEVEL_UP</Method>
+         </Learnsest_Entry>
+         <Learnsest_Entry>
+             <National_Index>2</National_Index>
+             <Generation>6</Generation>
+             <Level>1</Level>
+             <Method>LEVEL_UP</Method>
+         </Learnsest_Entry>
+         <Learnsest_Entry>
+             <National_Index>2</National_Index>
+             <Generation>7</Generation>
+             <Level>1</Level>
+             <Method>LEVEL_UP</Method>
+         </Learnsest_Entry>
+         
+         <!-- Venusaur -->
+         <Learnsest_Entry>
+             <National_Index>3</National_Index>
+             <Generation>1</Generation>
+             <Level>1</Level>
+             <Method>LEVEL_UP</Method>
+         </Learnsest_Entry>
+         <Learnsest_Entry>
+             <National_Index>3</National_Index>
+             <Generation>2</Generation>
+             <Level>1</Level>
+             <Method>LEVEL_UP</Method>
+         </Learnsest_Entry>
+         <Learnsest_Entry>
+             <National_Index>3</National_Index>
+             <Generation>3</Generation>
+             <Level>1</Level>
+             <Method>LEVEL_UP</Method>
+         </Learnsest_Entry>
+         <Learnsest_Entry>
+             <National_Index>3</National_Index>
+             <Generation>4</Generation>
+             <Level>1</Level>
+             <Method>LEVEL_UP</Method>
+         </Learnsest_Entry>
+         <Learnsest_Entry>
+             <National_Index>3</National_Index>
+             <Generation>5</Generation>
+             <Level>1</Level>
+             <Method>LEVEL_UP</Method>
+         </Learnsest_Entry>
+         <Learnsest_Entry>
+             <National_Index>3</National_Index>
+             <Generation>6</Generation>
+             <Level>1</Level>
+             <Method>LEVEL_UP</Method>
+         </Learnsest_Entry>
+         <Learnsest_Entry>
+             <National_Index>3</National_Index>
+             <Generation>7</Generation>
+             <Level>1</Level>
+             <Method>LEVEL_UP</Method>
+         </Learnsest_Entry>
+         <Learnsest_Entry>
+             <National_Index>3</National_Index>
+             <Form>1</Form>
+             <Generation>6</Generation>
+             <Level>1</Level>
+             <Method>LEVEL_UP</Method>
+         </Learnsest_Entry>
+         <Learnsest_Entry>
+             <National_Index>3</National_Index>
+             <Form>1</Form>
+             <Generation>7</Generation>
+             <Level>1</Level>
+             <Method>LEVEL_UP</Method>
+         </Learnsest_Entry>
+         
+         <!-- Squirtle -->
+         <Learnsest_Entry>
+             <National_Index>7</National_Index>
+             <Generation>1</Generation>
+             <Level>1</Level>
+             <Method>LEVEL_UP</Method>
+         </Learnsest_Entry>
+         <Learnsest_Entry>
+             <National_Index>7</National_Index>
+             <Generation>2</Generation>
+             <Level>1</Level>
+             <Method>LEVEL_UP</Method>
+         </Learnsest_Entry>
+         <Learnsest_Entry>
+             <National_Index>7</National_Index>
+             <Generation>3</Generation>
+             <Level>1</Level>
+             <Method>LEVEL_UP</Method>
+         </Learnsest_Entry>
+         <Learnsest_Entry>
+             <National_Index>7</National_Index>
+             <Generation>4</Generation>
+             <Level>1</Level>
+             <Method>LEVEL_UP</Method>
+         </Learnsest_Entry>
+         <Learnsest_Entry>
+             <National_Index>7</National_Index>
+             <Generation>5</Generation>
+             <Level>1</Level>
+             <Method>LEVEL_UP</Method>
+         </Learnsest_Entry>
+         <Learnsest_Entry>
+             <National_Index>7</National_Index>
+             <Generation>6</Generation>
+             <Level>1</Level>
+             <Method>LEVEL_UP</Method>
+         </Learnsest_Entry>
+         <Learnsest_Entry>
+             <National_Index>7</National_Index>
+             <Generation>7</Generation>
+             <Level>1</Level>
+             <Method>LEVEL_UP</Method>
+         </Learnsest_Entry>
+         
+         <!-- Wartortle -->
+         <Learnsest_Entry>
+             <National_Index>8</National_Index>
+             <Generation>1</Generation>
+             <Level>1</Level>
+             <Method>LEVEL_UP</Method>
+         </Learnsest_Entry>
+         <Learnsest_Entry>
+             <National_Index>8</National_Index>
+             <Generation>2</Generation>
+             <Level>1</Level>
+             <Method>LEVEL_UP</Method>
+         </Learnsest_Entry>
+         <Learnsest_Entry>
+             <National_Index>8</National_Index>
+             <Generation>3</Generation>
+             <Level>1</Level>
+             <Method>LEVEL_UP</Method>
+         </Learnsest_Entry>
+         <Learnsest_Entry>
+             <National_Index>8</National_Index>
+             <Generation>4</Generation>
+             <Level>1</Level>
+             <Method>LEVEL_UP</Method>
+         </Learnsest_Entry>
+         <Learnsest_Entry>
+             <National_Index>8</National_Index>
+             <Generation>5</Generation>
+             <Level>1</Level>
+             <Method>LEVEL_UP</Method>
+         </Learnsest_Entry>
+         <Learnsest_Entry>
+             <National_Index>8</National_Index>
+             <Generation>6</Generation>
+             <Level>1</Level>
+             <Method>LEVEL_UP</Method>
+         </Learnsest_Entry>
+         <Learnsest_Entry>
+             <National_Index>8</National_Index>
+             <Generation>7</Generation>
+             <Level>1</Level>
+             <Method>LEVEL_UP</Method>
+         </Learnsest_Entry>
+         
+         <!-- Blastoise -->
+         <Learnsest_Entry>
+             <National_Index>9</National_Index>
+             <Generation>1</Generation>
+             <Level>1</Level>
+             <Method>LEVEL_UP</Method>
+         </Learnsest_Entry>
+         <Learnsest_Entry>
+             <National_Index>9</National_Index>
+             <Generation>2</Generation>
+             <Level>1</Level>
+             <Method>LEVEL_UP</Method>
+         </Learnsest_Entry>
+         <Learnsest_Entry>
+             <National_Index>9</National_Index>
+             <Generation>3</Generation>
+             <Level>1</Level>
+             <Method>LEVEL_UP</Method>
+         </Learnsest_Entry>
+         <Learnsest_Entry>
+             <National_Index>9</National_Index>
+             <Generation>4</Generation>
+             <Level>1</Level>
+             <Method>LEVEL_UP</Method>
+         </Learnsest_Entry>
+         <Learnsest_Entry>
+             <National_Index>9</National_Index>
+             <Generation>5</Generation>
+             <Level>1</Level>
+             <Method>LEVEL_UP</Method>
+         </Learnsest_Entry>
+         <Learnsest_Entry>
+             <National_Index>9</National_Index>
+             <Generation>6</Generation>
+             <Level>1</Level>
+             <Method>LEVEL_UP</Method>
+         </Learnsest_Entry>
+         <Learnsest_Entry>
+             <National_Index>9</National_Index>
+             <Generation>7</Generation>
+             <Level>1</Level>
+             <Method>LEVEL_UP</Method>
+         </Learnsest_Entry>
+         
+         <!-- Caterpie -->
+         <Learnsest_Entry>
+             <National_Index>10</National_Index>
+             <Generation>1</Generation>
+             <Level>1</Level>
+             <Method>LEVEL_UP</Method>
+         </Learnsest_Entry>
+         <Learnsest_Entry>
+             <National_Index>10</National_Index>
+             <Generation>2</Generation>
+             <Level>1</Level>
+             <Method>LEVEL_UP</Method>
+         </Learnsest_Entry>
+         <Learnsest_Entry>
+             <National_Index>10</National_Index>
+             <Generation>3</Generation>
+             <Level>1</Level>
+             <Method>LEVEL_UP</Method>
+         </Learnsest_Entry>
+         <Learnsest_Entry>
+             <National_Index>10</National_Index>
+             <Generation>4</Generation>
+             <Level>1</Level>
+             <Method>LEVEL_UP</Method>
+         </Learnsest_Entry>
+         <Learnsest_Entry>
+             <National_Index>10</National_Index>
+             <Generation>5</Generation>
+             <Level>1</Level>
+             <Method>LEVEL_UP</Method>
+         </Learnsest_Entry>
+         <Learnsest_Entry>
+             <National_Index>10</National_Index>
+             <Generation>6</Generation>
+             <Level>1</Level>
+             <Method>LEVEL_UP</Method>
+         </Learnsest_Entry>
+         <Learnsest_Entry>
+             <National_Index>10</National_Index>
+             <Generation>7</Generation>
+             <Level>1</Level>
+             <Method>LEVEL_UP</Method>
+         </Learnsest_Entry>
+         
+         <!-- Pidgey -->
+         <Learnsest_Entry>
+             <National_Index>16</National_Index>
+             <Generation>2</Generation>
+             <Level>1</Level>
+             <Method>LEVEL_UP</Method>
+         </Learnsest_Entry>
+         <Learnsest_Entry>
+             <National_Index>16</National_Index>
+             <Generation>3</Generation>
+             <Level>1</Level>
+             <Method>LEVEL_UP</Method>
+         </Learnsest_Entry>
+         <Learnsest_Entry>
+             <National_Index>16</National_Index>
+             <Generation>4</Generation>
+             <Level>1</Level>
+             <Method>LEVEL_UP</Method>
+         </Learnsest_Entry>
+         <Learnsest_Entry>
+             <National_Index>16</National_Index>
+             <Generation>5</Generation>
+             <Level>1</Level>
+             <Method>LEVEL_UP</Method>
+         </Learnsest_Entry>
+         <Learnsest_Entry>
+             <National_Index>16</National_Index>
+             <Generation>6</Generation>
+             <Level>1</Level>
+             <Method>LEVEL_UP</Method>
+         </Learnsest_Entry>
+         <Learnsest_Entry>
+             <National_Index>16</National_Index>
+             <Generation>7</Generation>
+             <Level>1</Level>
+             <Method>LEVEL_UP</Method>
+         </Learnsest_Entry>
+         
+         <!-- Pidgeotto -->
+         <Learnsest_Entry>
+             <National_Index>17</National_Index>
+             <Generation>2</Generation>
+             <Level>1</Level>
+             <Method>LEVEL_UP</Method>
+         </Learnsest_Entry>
+         <Learnsest_Entry>
+             <National_Index>17</National_Index>
+             <Generation>3</Generation>
+             <Level>1</Level>
+             <Method>LEVEL_UP</Method>
+         </Learnsest_Entry>
+         <Learnsest_Entry>
+             <National_Index>17</National_Index>
+             <Generation>4</Generation>
+             <Level>1</Level>
+             <Method>LEVEL_UP</Method>
+         </Learnsest_Entry>
+         <Learnsest_Entry>
+             <National_Index>17</National_Index>
+             <Generation>5</Generation>
+             <Level>1</Level>
+             <Method>LEVEL_UP</Method>
+         </Learnsest_Entry>
+         <Learnsest_Entry>
+             <National_Index>17</National_Index>
+             <Generation>6</Generation>
+             <Level>1</Level>
+             <Method>LEVEL_UP</Method>
+         </Learnsest_Entry>
+         <Learnsest_Entry>
+             <National_Index>17</National_Index>
+             <Generation>7</Generation>
+             <Level>1</Level>
+             <Method>LEVEL_UP</Method>
+         </Learnsest_Entry>
+         
+         <!-- Pidgeot -->
+         <Learnsest_Entry>
+             <National_Index>18</National_Index>
+             <Generation>2</Generation>
+             <Level>1</Level>
+             <Method>LEVEL_UP</Method>
+         </Learnsest_Entry>
+         <Learnsest_Entry>
+             <National_Index>18</National_Index>
+             <Generation>3</Generation>
+             <Level>1</Level>
+             <Method>LEVEL_UP</Method>
+         </Learnsest_Entry>
+         <Learnsest_Entry>
+             <National_Index>18</National_Index>
+             <Generation>4</Generation>
+             <Level>1</Level>
+             <Method>LEVEL_UP</Method>
+         </Learnsest_Entry>
+         <Learnsest_Entry>
+             <National_Index>18</National_Index>
+             <Generation>5</Generation>
+             <Level>1</Level>
+             <Method>LEVEL_UP</Method>
+         </Learnsest_Entry>
+         <Learnsest_Entry>
+             <National_Index>18</National_Index>
+             <Generation>6</Generation>
+             <Level>1</Level>
+             <Method>LEVEL_UP</Method>
+         </Learnsest_Entry>
+         <Learnsest_Entry>
+             <National_Index>18</National_Index>
+             <Generation>7</Generation>
+             <Level>1</Level>
+             <Method>LEVEL_UP</Method>
+         </Learnsest_Entry>         
+         <Learnsest_Entry>
+             <National_Index>18</National_Index>
+             <Form>1</Form>
+             <Generation>6</Generation>
+             <Level>1</Level>
+             <Method>LEVEL_UP</Method>
+         </Learnsest_Entry>
+         <Learnsest_Entry>
+             <National_Index>18</National_Index>
+             <Form>1</Form>
+             <Generation>7</Generation>
+             <Level>1</Level>
+             <Method>LEVEL_UP</Method>
+         </Learnsest_Entry>
+         
+         <!-- Rattata -->
+         
+         
+         <!-- Ratticate -->
+         
+         
+         <!-- NidoranF -->
+         
+         
+         <!-- Nidorina -->
+         
+         
+         <!-- Nidoqueen -->
+         
+         
+         <!-- NidoranM -->
+         
+         
+         <!-- Nidorino -->
+         
+         
+         <!-- Nidoking -->
+         
+         
+         
+         
+         
+         
+         
+         
+    </Learnset>
+</Move>

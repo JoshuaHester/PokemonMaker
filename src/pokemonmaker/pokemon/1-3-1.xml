@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pokemon>
+    <Name>Mega Venusaur</Name>
+    <NationalIndex>3</NationalIndex>
+    <RegionalIndex>3</RegionalIndex>
+    <Generation>1</Generation>
+    <Form>1</Form>
+    <Typing>
+        <Primary>GRASS</Primary>
+        <Secondary>POISON</Secondary>
+    </Typing>
+    <Ability>
+        <Primary>THICK_FAT</Primary>
+    </Ability>
+    <Stats>
+        <HP>80</HP>
+        <Attack>100</Attack>
+        <Defense>123</Defense>
+        <SpecialAttack>122</SpecialAttack>
+        <SpecialDefense>120</SpecialDefense>
+        <Speed>80</Speed>
+        <Total>625</Total>
+    </Stats>
+</Pokemon>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pokemon>
+    <Name>Bulbasaur</Name>
+    <NationalIndex>1</NationalIndex>
+    <RegionalIndex>1</RegionalIndex>
+    <Generation>1</Generation>
+    <Typing>
+        <Primary>GRASS</Primary>
+        <Secondary>POISON</Secondary>
+    </Typing>
+    <Ability>
+        <Primary>OVERGROW</Primary>
+        <Secondary></Secondary>
+        <Hidden>CHLOROPHYLL</Hidden>
+    </Ability>
+    <Stats>
+        <HP>45</HP>
+        <Attack>49</Attack>
+        <Defense>49</Defense>
+        <SpecialAttack>65</SpecialAttack>
+        <SpecialDefense>65</SpecialDefense>
+        <Speed>45</Speed>
+        <Total>318</Total>
+    </Stats>
+</Pokemon>

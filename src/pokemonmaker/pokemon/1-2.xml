@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pokemon>
+    <Name>Ivysaur</Name>
+    <NationalIndex>2</NationalIndex>
+    <RegionalIndex>2</RegionalIndex>
+    <Generation>1</Generation>
+    <Typing>
+        <Primary>GRASS</Primary>
+        <Secondary>POISON</Secondary>
+    </Typing>
+    <Ability>
+        <Primary>OVERGROW</Primary>
+        <Secondary></Secondary>
+        <Hidden>CHLOROPHYLL</Hidden>
+    </Ability>
+    <Stats>
+        <HP>45</HP>
+        <Attack>62</Attack>
+        <Defense>63</Defense>
+        <SpecialAttack>80</SpecialAttack>
+        <SpecialDefense>80</SpecialDefense>
+        <Speed>60</Speed>
+        <Total>405</Total>
+    </Stats>
+</Pokemon>

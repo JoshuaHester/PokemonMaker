@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pokemon>
+    <SaveNumber>1</SaveNumber>
+    <Nickname>Spiffy</Nickname>
+    <Ability>CHLOROPHYLL</Ability>
+    <EFFORT_VALUES>
+        <HP>252</HP>
+        <Attack>0</Attack>
+        <Defense>0</Defense>
+        <SpecialAttack>252</SpecialAttack>
+        <SpecialDefense>6</SpecialDefense>
+        <Speed>0</Speed>
+        <Total>510</Total>
+    </EFFORT_VALUES>
+    <INDIVIDUAL_VALUES>
+        <HP>31</HP>
+        <Attack>31</Attack>
+        <Defense>31</Defense>
+        <SpecialAttack>31</SpecialAttack>
+        <SpecialDefense>31</SpecialDefense>
+        <Speed>31</Speed>
+    </INDIVIDUAL_VALUES>
+</Pokemon>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Pokemon>
+    <Name>Venusaur</Name>
+    <NationalIndex>3</NationalIndex>
+    <RegionalIndex>3</RegionalIndex>
+    <Generation>1</Generation>
+    <Form>0</Form>
+    <Typing>
+        <Primary>GRASS</Primary>
+        <Secondary>POISON</Secondary>
+    </Typing>
+    <Ability>
+        <Primary>OVERGROW</Primary>
+        <Secondary></Secondary>
+        <Hidden>CHLOROPHYLL</Hidden>
+    </Ability>
+    <Stats>
+        <HP>80</HP>
+        <Attack>82</Attack>
+        <Defense>83</Defense>
+        <SpecialAttack>100</SpecialAttack>
+        <SpecialDefense>100</SpecialDefense>
+        <Speed>80</Speed>
+        <Total>525</Total>
+    </Stats>
+</Pokemon>
