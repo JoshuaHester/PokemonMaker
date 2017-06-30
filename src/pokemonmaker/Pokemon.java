@@ -47,7 +47,7 @@ public class Pokemon {
     public String getOwnedAbility(){return ownedAbility.toString();}
     //species name, nickname, index numbers
     public void setSpecies(String name){species = name;}
-    public String getSpecies(){System.out.println(species); return species;}
+    public String getSpecies(){return species;}
     public void setNickname(String name){nickname = name;}
     public String getNickname(){return nickname;}
     public void setGeneration(int index){generation = index;}

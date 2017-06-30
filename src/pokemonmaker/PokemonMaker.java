@@ -9,20 +9,24 @@ import java.awt.event.WindowAdapter;
 public class PokemonMaker extends javax.swing.JFrame {
     Database pokemonDatabase;
     
+    //Database defaults
+    String databaseUrl = "jdbc:mysql://localhost";
+    String account = "root";
+    String password = "root";
+    
     /**
      * Creates new form PokemonMaker
      */
     public PokemonMaker() {
-        pokemonDatabase = new Database();
         
         
-        
+        pokemonDatabase = new Database(databaseUrl,account,password,true);
         
         
         
         initComponents();
         
-        pokemonDatabase.getPokemonindexByGeneration(1);
+        System.out.print(pokemonDatabase.getPokemonListByGeneration(1));
     }
 
     /**

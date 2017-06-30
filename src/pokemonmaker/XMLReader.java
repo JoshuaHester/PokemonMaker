@@ -8,10 +8,7 @@ import java.io.*;
  * @author Joshua Hester
  */
 public class XMLReader {
-/*  
-    for now, just work with Bulbasaur. Once everything dealing with it is 
-    working, we can expand to read through the whole database
-*/
+
     //private File inputFile = new File("pokemon/1-1.xml");
     
     File directory = null;
@@ -19,21 +16,33 @@ public class XMLReader {
     int index = 0;
     
     public XMLReader(String directoryName){
+        /**
+         * Creates a reader that will be used to read the files in the corresponding directory 
+         */
         directory = new File(directoryName);
         fileList = directory.listFiles();
     }
     
     public File getNextFile(){
-        File pokemonFile = fileList[index];
+        /**
+         * Finds the next file in the directory
+         */
+        File file = fileList[index];
         try{index++;}catch(ArrayIndexOutOfBoundsException e){System.out.println("array out of bounds");}
-        return pokemonFile;
+        return file;
     }
     
     public int getDirectorySize(){
+        /**
+         * returns the number of files in the directory
+         */
         return fileList.length;
     }
     
     public void readPokemonFile(Pokemon pokemon, File inputFile){
+        /**
+         * Reads an XML file for Pokemon and stores the data as a Pokemon Object
+         */
         Document document = null;
         try{
             DocumentBuilderFactory factory = DocumentBuilderFactory.newInstance();
@@ -72,6 +81,11 @@ public class XMLReader {
     }
     
     public void readMoveFile(){
+        /**
+         * Reads an XML file for moves and stores the data as a Move Object
+         */
+        
+        
         
     }
     

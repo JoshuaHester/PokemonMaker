@@ -10,14 +10,18 @@ import java.io.*;
  * 
  */
 public class Database {
+    private Boolean testing = true;
     private Connection connection = null;
     public static Statement statement = null;
-    public Database(){
-        //Open database connection
+    public Database(String databaseURL, String account, String password,Boolean testing){
+        /**
+         * 
+         */
+        this.testing = testing;
+        
         try{
-            String databaseURL = "jdbc:mysql://localhost";
 
-            connection = DriverManager.getConnection(databaseURL,"root","root");
+            connection = DriverManager.getConnection(databaseURL,account,password);
             System.out.println("Database connected successfully");
             statement = connection.createStatement();
         }catch(SQLException e){
@@ -25,10 +29,10 @@ public class Database {
             System.out.println(e.getMessage());
         }
         
-         //remove this afer you fix everything !!!!
-        UpdateSQL("DROP DATABASE POKEMONCREATOR");
-        
-        
+        if(testing){
+            //completely drop the previous database iteration
+            UpdateSQL("DROP DATABASE POKEMONCREATOR");
+        }
         
         //Create the Pokemon Database.
         //Since the database is stored on the system, anything already in the database will fail.
@@ -60,6 +64,9 @@ public class Database {
     }
     
     public void UpdateSQL(String sql /* Any SQL logic statement */){
+        /**
+         * Updates the Database with a valid SQL query
+         */
         try{
             statement.executeUpdate(sql);
         }catch(SQLException e){
@@ -68,21 +75,11 @@ public class Database {
         }
     }
     
-    public Object RetrieveSQLData(String sql /* Any SQL logic statement */){
-        Object output = null;
-        try{
-            ResultSet result = statement.executeQuery(sql);
-            while (result.next()) {
-                    output =  (Object) result.getObject(1);
-                }
-        }catch(SQLException e){
-            System.out.println("SQL statement update error");
-            System.out.println(e.getMessage());
-        }
-        return output;
-    }
-    
     public void readPokemonIntoDatabase(){
+        /** 
+         * Reads all Pokemon XML files into the database 
+         */
+        
         Pokemon pokemon = new Pokemon();
         XMLReader reader = new XMLReader("src/pokemonmaker/pokemon");
         for(int i=0;i<reader.getDirectorySize();i++){
@@ -92,14 +89,46 @@ public class Database {
         }
     }
     
-    public void getPokemonindexByGeneration (int generation){
-        String string = "Select natid, form FROM Pokemon WHERE generation="+generation+";";
-        System.out.print(RetrieveSQLData(string));
+    public String[] getPokemonListByGeneration (int generation){
+        /** 
+         * create an array containing the national index, form, and species name of each pokemon from the given generation 
+         */
         
+        String query = "Select natid, form, species FROM Pokemon WHERE generation="+generation+";";
+        String countQuery = "SELECT count(*) FROM Pokemon WHERE generation="+generation+";";
+        int count = 0;
+        
+        try{
+            ResultSet result = statement.executeQuery(countQuery);
+            while (result.next()) {
+                count =  ((Long) result.getObject(1)).intValue();;
+            }
+        }catch(SQLException e){
+            System.out.println("SQL statement update error");
+            System.out.println(e.getMessage());
+        }
+        
+        String output[] = new String[count];
+        try{
+            ResultSet result = statement.executeQuery(query);
+            int i = 0;
+            while (result.next()) {
+                    output[i] =  result.getObject(1).toString()+" "+result.getObject(2).toString()+" "+result.getObject(3).toString();
+                    if(testing){System.out.println(output[i]);}
+                    i++;
+                }
+        }catch(SQLException e){
+            System.out.println("SQL statement update error");
+            System.out.println(e.getMessage());
+        }
+        return output;
         
     } 
     
     private String generateEntryString(Pokemon pokemon){
+        /**
+         * Converts the Pokemon Object into an SQL querry to read into the database
+         */
         
         String string ="INSERT INTO Pokemon (natid,form,regionid,generation,species,type1,type2,ability1,ability2,ability3,hp,attack,defense,specialattack,specialdefense,speed,stattotal)"
                 + "VALUES ("
